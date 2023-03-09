@@ -22,4 +22,5 @@ The shellcode loader is developed for Windows and the C2 software for Linux syst
 - start the C2 software as root on your Linux system or your Linux VPS i.e. with ```./icmp-c2-server -a 64 -os win -sc <your shellcode>```
 - start the shellcode loader on your Windows and enjoy
 
-![example](https://user-images.githubusercontent.com/79810730/223886417-9b944229-acb9-4a97-8107-2895e22adac5.gif)
+
+<img src="https://user-images.githubusercontent.com/79810730/223886417-9b944229-acb9-4a97-8107-2895e22adac5.gif" alt="example" style="width:80%;"/>
