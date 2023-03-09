@@ -10,9 +10,9 @@ The shellcode loader is developed for Windows and the C2 software for Linux syst
 - VPS (only for C&C over internet)
 
 ## How to build
-- insert the IP of your VPS in the icmp-sc-loader.go 
-- build icmp-sc-loader.go on Windows
-- build icmp-c2-server.go static on Linux (build with CGO_ENABLED=0 and -ldflags '-extldflags "-static"') or download pre-compiled icmp-c2-server
+- insert the IP of your VPS in the icmp-sc-loader 
+- build icmp-sc-loader on Windows
+- build icmp-c2-server static on Linux (build with CGO_ENABLED=0 and -ldflags '-extldflags "-static"') or download pre-compiled icmp-c2-server
 
 <img src="https://user-images.githubusercontent.com/79810730/223784387-a94cffea-f29d-4463-97ef-067c42e40b95.PNG" alt="static compile" style="width:50%;"/>
 
