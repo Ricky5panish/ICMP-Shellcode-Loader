@@ -1,6 +1,6 @@
 # ICMP-Shellcode-Loader
 A Golang shellcode loader that receives payloads via ICMP packets to bypass firewalls.
-The shellcode loader is developed for Windows and the C2 software for Linux systems.
+The shellcode loader is currently developed for Windows and the C2 software for Linux systems.
 
 ## Requirements
 - Windows OS
