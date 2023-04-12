@@ -12,7 +12,7 @@ The shellcode loader is currently developed for Windows and the C2 software for 
 ## How to build
 - insert the IP of your VPS in the icmp-sc-loader 
 - build icmp-sc-loader on/for Windows
-- build icmp-c2-server static on/for Linux (build with ```CGO_ENABLED=0``` and ```-ldflags '-extldflags "-static"'```) or download pre-compiled [icmp-c2-server](https://github.com/Ricky5panish/ICMP-Shellcode-Loader/files/10926916/icmp-c2-server.zip)
+- build icmp-c2-server static on/for Linux (build with ```CGO_ENABLED=0``` and ```-ldflags '-extldflags "-static"'```) or download the pre-compiled [icmp-c2-server](https://github.com/Ricky5panish/ICMP-Shellcode-Loader/files/10926916/icmp-c2-server.zip)
 
 
 <img src="https://user-images.githubusercontent.com/79810730/223784387-a94cffea-f29d-4463-97ef-067c42e40b95.PNG" alt="static compile" style="width:50%;"/>
